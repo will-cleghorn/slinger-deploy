@@ -1,0 +1,3 @@
+source .env
+export RUST_LOG=slinger=debug
+cargo run -- produce --path ./test/pretend-binary --private-key $SLINGER_PRODUCER_PRIV

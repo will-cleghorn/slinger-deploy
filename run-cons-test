@@ -1,0 +1,4 @@
+source .env
+export RUST_LOG=slinger=debug
+# export RUST_LOG=debug
+cargo run -- consume --ticket $SLINGER_PRODUCER_PUB --tier 0
